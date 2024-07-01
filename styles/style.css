@@ -106,23 +106,24 @@ main {
     margin-right: 10px;
 }
 
-.products p {
-    position: relative;
-    padding-right: 50px;
-    font-weight: bold;
+.products {
+    display: none;
+    padding: 10px;
 }
 
-.products p span {
-    position: absolute;
-    right: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    height: 13px;
-    vertical-align: 0.2em;
-    top: -3px;
-    opacity: 0.8;
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.product-name {
+    flex: 1;
+}
+
+.product-price {
+    text-align: right;
+    white-space: nowrap;
 }
 
 .toggle {
@@ -149,9 +150,6 @@ p{
     .logo{
         border-radius: 50%;
     }
-    
-
-
 }
 
 footer {
@@ -223,4 +221,23 @@ footer {
     font-size: large;
     color: white;
     opacity: none;
+}
+
+.products p {
+    position: relative;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.products p span {
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 13px;
+    vertical-align: 0.2em;
+    top: -3px;
+    opacity: 0.8;
 }
