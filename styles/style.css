@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../Pictures/fondo\ 1.jpg');
+    background-image: url('../Pictures/fondo\ 2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -24,12 +24,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 h2{
-    background-color: rgba(255, 253, 253, 0.932);
-    opacity: 0.9;
+    background-color: #333;
+    opacity: 0.8;
+    color: white;
 }
 
 .icono1{
@@ -127,16 +128,21 @@ main {
 
 .product-name {
     flex: 1;
+    color:rgba(243, 128, 34, 0.973) ;
 }
 
 .product-price {
     text-align: right;
     white-space: nowrap;
+    color: rgba(243, 128, 34, 0.973);
+    background-color: #ffffff38;
+    border-radius: 10%;
 }
 
 .toggle {
     cursor: pointer;
     font-size: 2em;
+    color: white;
 }
 
 p{
@@ -168,7 +174,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .footer-left img {
